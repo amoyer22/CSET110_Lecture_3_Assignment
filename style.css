@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bigDisplay{
+    height: auto;
+    background-image: url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 80px;
+    overflow: hidden;
+}
+.bigDisplayContent{
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    width: 700px;
+    position: relative;
+}
+.bigDisplayContent h1{
+    font-size: 40px;
+}
+.bigDisplayContent p{
+    font-size: 20px;
+    margin: 20px;
+}
+.bigDisplayContent button{
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+.mainPage{
+    text-align: center;
+    margin: auto;
+    height: auto;
+}
+
+.section1{
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    padding: 35px 300px;
+    width: 100%;
+    color: #333333;
+}
+.section1Column{
+    display: inline;
+    float: left;
+    width: 30%;
+    font-size: 20px;
+    margin: 20px 10%;
+}
+
+.section2{
+    background-color: #333333;
+    color: #333333;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+    padding: 0px 10px;
+}
+.section2Column{
+    width: 20%;
+    margin: 30px 10px;
+    height: auto;
+    background-color: white;
+    display: inline-block;
+}
+.section2 h2{
+    padding: 30px;
+}
+.section2 p{
+    font-size: 20px;
+    padding: 30px;
+}
+.section2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.section3{
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+    width: 70%;
+    position: relative;
+    padding: 50px;
+    color: #333333;
+}
+.section3 h1{
+    margin-bottom: 30px;
+}
+.section3 p{
+    font-size: 20px;
+}
+
+.section4{
+    text-align: center;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    color: white;
+}
+.section4Column p{
+    font-size: 20px;
+    padding: 60px;
+}
+.section4Column{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 300px;
+    display: block;
+    padding: 40px 20px;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    height: 150px;
+    width: 100%;
+    font-size: 20px;
+    padding: 30px;
+}
+.footerColumn{
+    position: relative;
+    float: left;
+    width: 50%;
+    display: block;
+    padding: 40px 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: #2690D4;
+}
